@@ -1,0 +1,6 @@
+extract_annotations/
+images/
+labelimg/
+__pycache__/
+xmls/
+test.txt
