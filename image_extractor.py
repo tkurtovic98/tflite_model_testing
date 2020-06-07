@@ -16,7 +16,7 @@ def main():
                           'staffordshire_bull_terrier']
 
     dir_sizes = {class_name: 0 for class_name in classes_to_extract}
-    dir_size_limit = 40
+    dir_size_limit = 100
 
     annotations = os.listdir(annotation_dir)
     src_images = os.listdir(src_images_dir)
