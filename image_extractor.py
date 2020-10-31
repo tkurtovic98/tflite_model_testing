@@ -2,12 +2,12 @@ import os
 import re
 from shutil import copy
 
-root = '/home/tomislav/Tomo/Faks/Zavrsni-rad/testing/'
+root = './testing/'
 
-test_file = '/home/tomislav/Tomo/Faks/Zavrsni-rad/testing/test.txt'
-annotation_dir = '/home/tomislav/Tomo/Faks/Zavrsni-rad/testing/xmls'
-src_images_dir = '/home/tomislav/Tomo/Faks/Zavrsni-rad/temp/images'
-dest_images_dir = '/home/tomislav/Tomo/Faks/Zavrsni-rad/testing/images'
+test_file = './test.txt'
+annotation_dir = './xmls'
+src_images_dir = './temp/images'
+dest_images_dir = './testing/images'
 
 
 def main():
